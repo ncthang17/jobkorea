@@ -6,4 +6,4 @@ corp_name_list = df[df['담당'] == '6번']['기업명'].dropna().unique().tolis
 
 results_df = get_jobkorea_data(corp_name_list)
 
-results_df.to_csv("jobkorea_data_6_0618.csv", index=False, encoding="utf-8-sig")
+results_df.to_csv("jobkorea_data_6_final_1806_1235.csv", index=False, encoding="utf-8-sig")
