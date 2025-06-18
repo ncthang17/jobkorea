@@ -1,5 +1,4 @@
-# 📊 JobKorea Company Data Scraper 
-# Created by Nguyen Chien Thang
+# 📊 JobKorea Company Data Scraper - Nguyen Chien Thang
 
 This repository contains Python scripts that automate the process of collecting metadata and company information from **JobKorea** based on a list of company names. It is designed to dynamically extract relevant company details such as type, location, industry, capital, revenue, CEO, and founding date.
 
