@@ -8,7 +8,7 @@ This repository contains Python scripts that automate the process of collecting 
   Contains the main scraping logic and a function `get_jobkorea_data` that accepts a list of company names and returns their detailed information by parsing JobKorea’s search and detail pages.
 
 - **`jobKorea_data_6.py`**  
-  Reads a CSV file (`enterprise_df_10k_utf8_data.csv`), filters for companies managed by 담당 (=6번 for my own case), extracts their names, and calls the scraping function from the main script. The output is saved to `jobkorea_data_6_0618.csv`.
+  Reads a CSV file (`enterprise_df_10k_utf8_data.csv`), filters for companies managed by 담당 (=6번 for my own case), extracts their names, and calls the scraping function from the main script. The output is saved to `jobkorea_data_6_final_1806_1235.csv`.
 
 ## 🔍 Features
 
@@ -71,7 +71,7 @@ This script will:
 - Load `enterprise_df_10k_utf8_data.csv`
 - Filter for companies with 담당 == '6번'
 - Extract job metadata via `get_jobkorea_data`
-- Save the output to `jobkorea_data_6_0618.csv`
+- Save the output to `jobkorea_data_6_final_1806_1235.csv`
 
 ## 📁 Output Format
 
